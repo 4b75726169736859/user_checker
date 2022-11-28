@@ -10,8 +10,6 @@ from datetime import date
 today = date.today()
 date = today.strftime("%d%m%Y")
 
-globalCount = 0
-globalCountAll = 0
 
 def checker(url, driver):
     try:
