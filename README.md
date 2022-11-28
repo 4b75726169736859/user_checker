@@ -6,4 +6,4 @@ Some false positives so the script takes screenshots of each site to have the us
 Firefox and Python3 is required.
 
 Installing dependencies:
-`python3 -m pip install -r requirements.txt'
+`python3 -m pip install -r requirements.txt`
