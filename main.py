@@ -26,7 +26,7 @@ def checker(url, driver):
             update_img_name = img_name.split(separator, 1)[0]
             driver.get(url)
             driver.save_screenshot(date + "/" + update_img_name + ".png")
-            print(Fore.MAGENTA + "[+] " + url + Fore.CYAN + " ScreenShot name : " + date + "/" + update_img_name)
+            print(Fore.MAGENTA + "[+] " + url + Fore.CYAN + " Screenshot name : " + date + "/" + update_img_name + ".png")
             return True
         else:
             print(Fore.YELLOW + "[-] " + url)
